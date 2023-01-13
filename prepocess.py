@@ -3,7 +3,7 @@ Prepare data for analysis
 - Run through audio dataset, extract musical features such pitches, mfcc, frequencies 
 - map them to desired classification class such sadness, happiness, etc...
 """
-from music21 import converter, score, stream
+import librosa
 from collections import defaultdict, OrderedDict
 from typing import List
 
