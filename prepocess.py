@@ -1,6 +1,7 @@
 """ 
-Recursive run through dataset and musical pitches such as mfcc, frequencies and map them to desired classification
-class such sadness, happiness, etc...
+Prepare data for analysis
+- Run through audio dataset, extract musical features such pitches, mfcc, frequencies 
+- map them to desired classification class such sadness, happiness, etc...
 """
 from music21 import converter, score, stream
 from collections import defaultdict, OrderedDict
